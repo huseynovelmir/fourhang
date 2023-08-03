@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;700;900&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <title>SignUP</title>
+</head>
+<body>
+    <header>
+      <div class="header-border">
+
+            <div class="icons-area">
+
+        
+                <a href=""><h3>FOURHANG</h3></a>
+
+                <div class="icons">
+                    <input type="image" src="./images/search.svg" alt="search">
+                    <input class="as" type="image" src="./images/cart.svg" alt="cart">
+                    <input class="burger" type="image" src="./images/burger.svg" alt="burger" onclick="BurgerMenu()">
+                </div>
+            </div>
+        
+            <nav>
+                <div class="nav-links">
+                    <a href="#">Home</a>
+                    <a href="#">Product</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                </div>
+
+                <div class="authentication-area">
+                    <button>Login</button>
+                    <button>Become a member → </button>
+                </div>
+            </nav>
+      </div>
+    </header>
+
+
+    <div class="intro">
+        <h2>Sign up for free</h2>
+            <p>Try everything free for 30 days, no payment 
+                details required</p>
+    </div>
+
+
+    <div class="form-area">
+        <div class="form-border">
+            <div class="signup-fb">
+                <button>
+                    <img src="./images/fbwhite.svg" alt="">
+                    Facebook
+                </button>
+                <div class="or-area">
+                    <div></div>
+                    OR
+                    <div></div>
+                </div>
+            </div>
+            <form>
+                <label for="fname">Name *</label><br>
+                <input type="text" id="fname" name="fname" placeholder="Full Name * " ><br>
+                <label for="lname">Email address *</label><br>
+                <input type="mail" id="lname" name="lname" placeholder="example@gmail.com  "><br>
+                <label for="lname">Password *</label><br>
+                <input type="password" id="lname" name="lname" placeholder="Password">
+                <input type="submit" value="Get Started" class="submit-btn">
+                <h3>
+                    By filling in the form above and clicking the “Get Started” button, you 
+                    accept and agree to Terms of Service and Privacy Policy.
+                </h3>
+            </form>
+            <div class="signin-area">
+                <h3>Already have an account?</h3>
+                <a href="">Sign in</a>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <footer>
+     <div class="footer-border">
+            <div class="footer-intro">
+                <a href="#">FOURHANG</a>
+
+                <div class="socials">
+                    <img src="./Images/fb.svg" alt="">
+                    <img src="./Images/insta.svg" alt="">
+                    <img src="./Images/twit.svg" alt="">
+
+                </div>
+            </div>
+            <div class="footer-info">
+                <ul>
+                    <h5> Company Info</h5>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Carrier</a></li>
+                    <li><a href="">We are hiring</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+
+                <ul>
+                    <h5>Legal</h5>
+                    <li><a href="">About Us</a></li>
+                    <li><a href="">Carrier</a></li>
+                    <li><a href="">We are hiring</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+
+                <ul>
+                    <h5>Features</h5>
+                    <li><a href="">Business Marketing</a></li>
+                    <li><a href="">User Analytic</a></li>
+                    <li><a href="">Live Chat</a></li>
+                    <li><a href="">Unlimited Support</a></li>
+                </ul>
+
+                <ul>
+                    <h5>Resources</h5>
+                    <li><a href="">IOS & Android</a></li>
+                    <li><a href="">Watch a Demo</a></li>
+                    <li><a href="">Customers</a></li>
+                    <li><a href="">API</a></li>
+                </ul>
+                <ul>
+                    <h5>Get In Touch</h5>
+                    <li class="mail-li"><input type="main" placeholder="Your Email" ><button>Subscribe</button></li>
+                    <li><a href="">Lore imp sum dolor Amit</a></li>
+                </ul>
+            </div>
+     </div>
+    </footer>
+    <!-- !end end end end end end end end end end end end end  -->
+    <div class="end">
+        <div class="end-border">
+            <a href="https://github.com/huseynovelmir">Made With Love By Elmir All Right Reserved </a>
+        </div>
+    </div>
+    
+    <script>
+        function BurgerMenu() {
+            document.querySelector('nav').classList.toggle("add")
+            
+        }
+    </script>
+</body>
+</html>
